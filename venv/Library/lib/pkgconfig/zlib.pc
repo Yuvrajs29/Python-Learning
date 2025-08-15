@@ -1,0 +1,13 @@
+prefix=D:/Python/Python-Learning/venv/Library
+exec_prefix=D:/Python/Python-Learning/venv/Library
+libdir=D:/Python/Python-Learning/venv/Library/lib
+sharedlibdir=D:/Python/Python-Learning/venv/Library/lib
+includedir=D:/Python/Python-Learning/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
